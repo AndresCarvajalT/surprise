@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amor mío</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Volvemos a traer la fuente cursiva junto con la clara -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <!-- Pantalla Inicial -->
+    <div id="pantalla-inicio">
+        <button id="btn-empezar">Para mi reina hermosa 🖤</button>
+    </div>
+
+    <!-- Contenido Sorpresa -->
+    <div id="pantalla-sorpresa" class="oculto">
+        <div class="carta-cristal">
+            <h1 class="titulo">¡Feliz cumpleaños mi reina hermosa! 🖤</h1>
+            
+            <p>No sé si lo sabías, pero pienso en ti solo cuando respiro, así que tampoco te emociones mucho 😅.</p>
+            
+            <p>Espero, amor, que este día lo disfrutes tanto como si estuvieras comiéndote un manguito con mucha sal y limón 🤤. Admiro tu forma de ser en todo y valoro muchísimo esa paciencia tan berraca que tienes. Mereces que te celebren en grande, y quiero que en cada detalle de hoy sientas todo mi amor y veas lo infinitamente especial que eres.</p>
+            
+            <p>¿Recuerdas, amor, esos momentos cuando me quedo mirándote fijamente y me preguntas "¿qué?" y yo te digo "nada"? Es porque mi mente está pensando que estoy frente a lo más hermoso que tengo en mi vida y, como siempre, no me la creo. Y solo pienso en cómo retribuirte esa inmensa felicidad que me das.</p>
+            
+            <p>Sé de sobra que tú puedes sola con todo y me lo has demostrado a mí y a tu familia mil veces. Pero ahora me tienes a mí. Cuenta conmigo para todo, no solamente en los días buenos, sino también en los malos.</p>
+            
+            <p>Te deseo un hermoso día, amor mío. Y como siempre, que Diosito me la bendiga, nos ayude y nos dé nuevas oportunidades en todas nuestras metas.</p>
+            
+            <p class="firma">Mía y yo te amamos.</p>
+        </div>
+
+        <!-- Galería Polaroid (Collage 5 fotos) -->
+        <div class="galeria">
+            <div class="polaroid">
+                <img src="multimedia/foto5.jpeg" alt="Nosotros">
+            </div>
+            <div class="polaroid">
+                <img src="multimedia/foto3.jpeg" alt="Nosotros">
+            </div>
+            <div class="polaroid">
+                <img src="multimedia/foto2.jpeg" alt="Nosotros">
+            </div>
+            <div class="polaroid">
+                <img src="multimedia/foto1.jpeg" alt="Nosotros">
+            </div>
+            <!-- La foto 4 queda en el centro sobre las demás -->
+            <div class="polaroid centro">
+                <img src="multimedia/foto4.jpeg" alt="Nosotros">
+            </div>
+        </div>
+    </div>
+
+    <audio id="musica-fondo" src="multimedia/cancion.mpeg" loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
